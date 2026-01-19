@@ -89,13 +89,13 @@ Let's tell Rhys where to go with the lawnmower. To do this we will use `||codebl
 lawnmower.start();
 ```
 
-To use codeblocks simply drag what you want to happen from the list of options on the left into within the block that says "`||on start||`".
+To use code blocks simply drag what you want to happen from the list of options on the left into within the block that says "`||on start||`".
 
 **If you get stuck, try clicking the lightbulb symbol for a hint.**
 
 
 ## Start and Stop the Lawnmower
-Within the "`||on start||`" block, there is a "`||lawnmower:Start lawnmower||`" block. When Rhys is done he needs to stop the lawnmower. to do this drag the "`||lawnmower:Stop lawnmower||`" command block below the "`||lawnmower:Start lawnmower||`".
+Within the "`||on start||`" block, there is a "`||lawnmower:Start lawnmower||`" block. When Rhys is done he needs to stop the lawnmower. To do this drag the "`||lawnmower:Stop lawnmower||`" command block below the "`||lawnmower:Start lawnmower||`".
 
 ```block
 lawnmower.start();
@@ -131,7 +131,7 @@ lawnmower.shiftLeft()
 
 ## Repeat...
 Tell Rhys to repeat this **5 times**, each row of the lawn (the lawnmower cuts three blocks at a time).
-You can do this by adding a "`||loops:repeat||`" loop Then drag all the blocks except for "`||lawnmower:Start lawnmower||`" and "`||lawnmower:Stop lawnmower||`" inside the loop.
+You can do this by adding a "`||loops:repeat||`" loop, then drag all the blocks except for "`||lawnmower:Start lawnmower||`" and "`||lawnmower:Stop lawnmower||`" inside the loop.
 
 ```blocks
 lawnmower.start();
