@@ -6,40 +6,38 @@ player.onItemInteracted(BLAZE_ROD, function () {
 
 ```
 
-# Seymour Island
+# シーモア アイランド
 
-## Seymour Island @unplugged
+## シーモア アイランド @unplugged
 
-Welcome to Seymour Island. To earn your place on the island, you must go and help 
-out the locals. The tasks are spread across the island (and below it in the mine).  
-If you want to check how you are getting on with completing all the tasks, drop
-by the progress checker on the ground floor of the town hall.   
+シーモア アイランドへ ようこそ。しまの なかまに なるには、みんなの おてつだいを しよう。タスクは しまじゅうに（そして ちかの こうざんにも）あるよ。
+タスクの しんちょくを かくにんしたいときは、やくばの 1かいの しんちょく チェッカーに いってみてね。
 ![Island](https://raw.githubusercontent.com/CausewayDigital/Minecraft-EE-MakeCode/main/tutorials/seymour-island/images/island.jpg)
 
-## Task difficulties @unplugged
+## タスクの なんいど @unplugged
 
-There are a large collection of different tasks for you to complete.
-Each of these tasks has a difficulty assigned to it, ranging from easy (green) to intermediate (orange) to advanced (red).     
-To give a task a go, follow the coloured route on the ground and talk to the NPC at the entrance of the task.
+いろいろな タスクが あるよ。
+それぞれの タスクには なんいどが あって、かんたん（みどり）から ちゅうきゅう（オレンジ）、じょうきゅう（あか）まで あるよ。
+タスクに ちょうせんするには、じめんの いろのついた みちを たどって、タスクの いりぐちに いる NPC に はなしかけてね。
 ![Tasks](https://raw.githubusercontent.com/CausewayDigital/Minecraft-EE-MakeCode/main/tutorials/seymour-island/images/seymour_tasks.jpg)
 
-## Personal Phone @unplugged
+## でんわ @unplugged
 
-When working through a task, if you want to reset the task, the location of your agent or quit the task early, you can use your phone.
-You will find the phone in your inventory.
+タスクちゅうに タスクを リセットしたり、エージェントの ばしょを もどしたり、タスクを やめたい ときは でんわを つかってね。
+でんわは インベントリに あるよ。
 
 ![Phone](https://raw.githubusercontent.com/CausewayDigital/Minecraft-EE-MakeCode/main/tutorials/seymour-island/images/phone.jpg)
 
-## Mayor @unplugged
+## ちょうちょう @unplugged
 
-Looks like the Mayor is up ahead, you should go talk to her, perhaps she can help answer some questions you might have?   
+ちょうちょう（まちの リーダー）が まっているみたい。はなしかけてみよう。なにか おしえてくれるかも？
 ![Mayor](https://raw.githubusercontent.com/CausewayDigital/Minecraft-EE-MakeCode/main/tutorials/seymour-island/images/mayor.jpg)
 
-## Nothing to code
+## コードは なし
 
-There is nothing to code right now. Close this window with the **esc** key on your keyboard.
+いまは コードを かく ひつようは ないよ。キーボードの **esc** キーで この ウィンドウを とじてね。
 
 
 ```package
-seymour=github:CausewayDigital/Minecraft-EE-MakeCode
+seymour=github:kt199671/Minecraft-EE-MakeCode
 ```

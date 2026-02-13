@@ -1,27 +1,26 @@
 
 
+
 ### @flyoutOnly 1
 
 ```template
-// 
+//
 ```
 
-# Breaking blocks
+# ブロックを こわそう
 
 
-# 1. Breaking blocks
+# 1. ブロックを こわそう
 
-## Breaking blocks @unplugged
+## ブロックを こわそう @unplugged
 
-Now we know how to move our Agent, the captain has asked if we can repair a damaged
-section of the ship hull.   
-We will need to collect a piece of wood to repair it with.    
-Use the Agent to break the orange piece of wood in front of it.   
+エージェントの うごかしかたが わかったね。キャプテンが ふねの こわれた ところを なおしてほしいって。
+しゅうりに つかう きの ブロックを あつめよう。
+エージェントを つかって まえにある オレンジいろの きの ブロックを こわそう。
 ![Breaking block](https://raw.githubusercontent.com/CausewayDigital/Minecraft-EE-MakeCode/main/tutorials/seymour-island/images/seymour_task_0_break.gif)
 
-## Breaking blocks
-Use the ``||Agent:agent destroy||`` command to break the block we need to use to repair
-the ship.
+## ブロックを こわそう
+``||Agent:agent destroy||`` コマンドを つかって、ふねの しゅうりに つかう ブロックを こわそう。
 
 ```blocks
 agent.destroy(FORWARD)
@@ -32,5 +31,5 @@ agent.move(LEFT)
 ```
 
 ```package
-seymour=github:CausewayDigital/Minecraft-EE-MakeCode
+seymour=github:kt199671/Minecraft-EE-MakeCode
 ```

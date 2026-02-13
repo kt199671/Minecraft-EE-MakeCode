@@ -1,36 +1,36 @@
 
 
+
 ### @flyoutOnly 1
 
 ```template
-// 
+//
 ```
 
-# Repair
+# しゅうり
 
-# 1. Repair
+# 1. しゅうり
 
-## Repair @unplugged
+## しゅうり @unplugged
 
-Now we have some wood for the repair, move the agent over to the area to be repaired.      
+しゅうりよう の き が てに はいったよ。エージェントを しゅうりする ばしょまで うごかそう。
 ![Agent repair](https://raw.githubusercontent.com/CausewayDigital/Minecraft-EE-MakeCode/main/tutorials/seymour-island/images/seymour_task_0_place_move.gif)
 
-## Move
-First, move your agent over to on top of the far emerald (green) block.   
-Then hit next.      
+## うごかそう
+まず、エージェントを おくの エメラルド（みどり）ブロックの うえまで うごかそう。
+できたら「つぎへ」を おしてね。
 
 ```blocks
 agent.move(LEFT, 3)
 
 ```
 
-## Repair @unplugged
-Now that the agent is in the right place, place the wooden block to repair the hull of the ship.
+## しゅうり @unplugged
+エージェントが ただしい ばしょに ついたよ。きの ブロックを おいて ふねの せんたいを しゅうり しよう。
 ![Agent repair](https://raw.githubusercontent.com/CausewayDigital/Minecraft-EE-MakeCode/main/tutorials/seymour-island/images/seymour_task_0_place.gif)
 
-## Repair
-Then use the ``||Agent:agent place left||`` command to place the wood block we just collected
-to repair the hull of the ship.
+## しゅうり
+``||Agent:agent place left||`` コマンドを つかって、あつめた きの ブロックで ふねの せんたいを しゅうり しよう。
 
 ```blocks
 
@@ -42,5 +42,5 @@ agent.place(LEFT)
 
 
 ```package
-seymour=github:CausewayDigital/Minecraft-EE-MakeCode
+seymour=github:kt199671/Minecraft-EE-MakeCode
 ```

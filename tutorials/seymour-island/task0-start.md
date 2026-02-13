@@ -1,44 +1,44 @@
 
 
+
 ### @flyoutOnly 1
 
 ```template
-// 
+//
 ```
 
-# Introduction
+# はじめに
 
 
 
-# 0. Introduction
+# 0. はじめに
 
-## Agent @unplugged
+## エージェント @unplugged
 
-This is an Agent. The Agent is a little robot that can be programmed to complete tasks within Minecraft. It can move, place blocks and even break blocks.   
+これは エージェント です。エージェントは マインクラフトの なかで タスクを こなせる ちいさな ロボットです。うごいたり、ブロックを おいたり、ブロックを こわしたり できます。
 
 
 ![Agent](https://raw.githubusercontent.com/CausewayDigital/Minecraft-EE-MakeCode/main/tutorials/seymour-island/images/seymour_task_0_agent.jpg)
 
-## Get started @unplugged
+## はじめよう @unplugged
 
-Let's get you started on training using your new Agent. First, lets try writing
-some code to instruct it to move from the Diamond block to the Gold block.   
+エージェントの つかいかたを れんしゅう しましょう。まず、エージェントを ダイヤモンドブロック から ゴールドブロック まで うごかす コードを かいてみよう。
 ![Agent moving](https://raw.githubusercontent.com/CausewayDigital/Minecraft-EE-MakeCode/main/tutorials/seymour-island/images/seymour_task_0_move.gif)
 
-You may wish to close this window (hit the **esc** key) to find your agent.   
-Remember, you can open it up again by pressing **C**
+この ウィンドウを とじるには **esc** キーを おしてね。エージェントを さがしてみよう。
+**C** キーを おすと もういちど ひらけるよ。
 
-## Time to code
-Drag out an ``||Agent:agent move||`` block into the ``||loops:on start||`` block.   
-You will then need to change the **forward** to **left**.   
-You might also need to change the number of steps...   
+## コードを かこう
+``||Agent:agent move||`` ブロックを ``||loops:on start||`` ブロックの なかに ドラッグしよう。
+つぎに、**forward** を **left** に かえてね。
+かずも かえる ひつようが あるかも...
 
-When you are ready to run your code, click the **play** button in the bottom right.
+コードを じっこう するには、みぎしたの **さいせい** ボタンを クリックしてね。
 
 ```blocks
     agent.move(LEFT, 2)
 ```
 
 ```package
-seymour=github:CausewayDigital/Minecraft-EE-MakeCode
+seymour=github:kt199671/Minecraft-EE-MakeCode
 ```

@@ -1,28 +1,26 @@
 ### @flyoutOnly 1
 
 
-# Maze coder
+# めいろ コーダー
 
 
 ## Step 1 @unplugged
 ![Overhead task](https://raw.githubusercontent.com/CausewayDigital/Minecraft-EE-MakeCode/main/tutorials/seymour-island/images/seymour_task_8.jpg)
-In this task, you need to get your Agent to the golden pressure pad. Seems easy, right?...   
-The catch... You can't see the obstacles in its way! For that, you will require a friend
-to take the position above, with the added benefit of invisible block visibility. They will guide you.    
-When you and your partner are ready, hit Next.   
+この タスクでは、エージェントを きんの プレッシャープレートまで たどりつかせよう。かんたんそう でしょ？...
+でも、じゃまな ブロックが みえないんだ！ それを みるには、うえの ポジションに いる ともだちの ちからが ひつよう。ともだちに あんないして もらおう。
+2にんとも じゅんびが できたら「つぎへ」を おしてね。
 
 ```template
 //
 ```
 
 ## Step 2
-To move your agent, you can use the ``||agent:agent move FORWARD||`` command.   
-You are also able to use the ``||agent:agent turn LEFT||`` command if you wish.
+エージェントを うごかすには ``||agent:agent move FORWARD||`` コマンドを つかおう。
+``||agent:agent turn LEFT||`` コマンドも つかえるよ。
 
-Place your code within the ``||player: on start||`` section, then click
-the play button in the bottom right corner to run your code.
+コードを ``||player: on start||`` の なかに おいて、みぎしたの さいせい ボタンで じっこうしてね。
 
-Good luck!
+がんばって！
 
 ```blocks
 agent.move(FORWARD, 1)
@@ -60,5 +58,5 @@ agent.move(FORWARD, 1)
 ```
 
 ```package
-seymour=github:CausewayDigital/Minecraft-EE-MakeCode
+seymour=github:kt199671/Minecraft-EE-MakeCode
 ```

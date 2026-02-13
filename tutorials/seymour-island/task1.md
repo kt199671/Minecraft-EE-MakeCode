@@ -1,21 +1,20 @@
 ### @flyoutOnly 1
 
 
-# Circuit Repair
+# かいろの しゅうり
 
 
 ## Step 1 @unplugged
 
 ![Overhead task](https://raw.githubusercontent.com/CausewayDigital/Minecraft-EE-MakeCode/main/tutorials/seymour-island/images/seymour_task_1_overhead.jpg)
-In this task, you must fix the redstone circuit. The missing pieces are marked with green blocks below.
-Your agent has plenty of redstone, ready to be used for this repair.
-Place your code within the ``||loops: on start||`` section and when you are ready to run your code, click the **play** button in the bottom right.
-Hit the **Next** button to continue.
+この タスクでは、レッドストーン かいろを なおします。こわれた ところは したの みどりの ブロックで しるしが ついています。
+エージェントには しゅうりよう の レッドストーンが たくさん あります。
+コードを ``||loops: on start||`` の なかに おいて、じっこうするには みぎしたの **さいせい** ボタンを クリックしてね。
+**つぎへ** ボタンで すすもう。
 
 ## Step 2
-First, we need to get our agent to the sections that have been damaged (marked with green).
-Try using the ``||agent:agent move forward||`` and ``||agent:agent turn left/right||`` commands to position your agent
-above one of the green blocks.
+まず、エージェントを こわれた ところ（みどりの しるし）まで うごかそう。
+``||agent:agent move forward||`` と ``||agent:agent turn left/right||`` コマンドを つかって、エージェントを みどりの ブロックの うえに いどうさせよう。
 
 ```template
 //
@@ -30,15 +29,15 @@ agent.move(FORWARD, 2)
 
 
 ## Step 3
-Now place the redstone using ``||agent:agent place down||`` on a green block, to fix that part of the circuit.
+``||agent:agent place down||`` を つかって みどりの ブロックの うえに レッドストーンを おいて、かいろの その ぶぶんを なおそう。
 ```blocks
 agent.place(DOWN)
 ```
 
 
 ## Step 4
-Now you know what you are doing, code your agent to place redstone on the other 2 green blocks.
-If you find yourself stuck or want to start again, use your phone to reset the task.
+やりかたが わかったね。のこりの 2つの みどりの ブロックにも レッドストーンを おく コードを かこう。
+こまったら、でんわの「タスクを リセット」を つかって やりなおせるよ。
 
 ```ghost
     agent.move(FORWARD, 1)
@@ -57,5 +56,5 @@ If you find yourself stuck or want to start again, use your phone to reset the t
 ```
 
 ```package
-seymour=github:CausewayDigital/Minecraft-EE-MakeCode
+seymour=github:kt199671/Minecraft-EE-MakeCode
 ```

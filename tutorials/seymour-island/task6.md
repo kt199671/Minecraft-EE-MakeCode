@@ -1,15 +1,13 @@
 ### @flyoutOnly 1
 
 
-# Multiplayer circuits
+# マルチプレイヤー かいろ
 
 ## Step 1 @unplugged
 ![Side task](https://raw.githubusercontent.com/CausewayDigital/Minecraft-EE-MakeCode/main/tutorials/seymour-island/images/seymour_task_6.jpg)
-Before you get started, it is important you have a friend in the room beside you to 
-help with this task, as it requires 2 players!
-It is also recommended that you have completed the fixing circuits single player 
-task before attempting this one.   
-Once you are ready to proceed, hit the next button.   
+はじめるまえに、この タスクは 2にん ひつようだから、となりに ともだちが いることを たしかめてね！
+また、この タスクの まえに かいろしゅうりの 1にんよう タスクを クリアしておくのが おすすめだよ。
+じゅんびが できたら「つぎへ」を おしてね。
 
 ```template
 //
@@ -17,18 +15,15 @@ Once you are ready to proceed, hit the next button.
 
 ## Step 2
 
-This task involves repairing some circuits together, on a large scale.   
-Look down into the circuit area. There are 4 quadrants, 2 of which you have to fix
-and 2 that your friend has to fix. They feed into each other across the centre line.
-The redstone current travels through the centre purple blocks. 
-Note you can only place redstone on the **Green Emerald** blocks.  
+この タスクでは、2にんで おおきな かいろを しゅうり するよ。
+したの かいろ エリアを みてみよう。4つの くかくが あって、2つは きみが なおして、2つは ともだちが なおすよ。おたがいの かいろは まんなかの むらさきの ブロックで つながっているよ。
+レッドストーンは **みどりの エメラルドブロック** の うえにだけ おけるよ。
 
 
 ## Step 3
 
-Although you could write a program that had instructions for each block to check, why
-not just build a program that scans for all emerald blocks, then places redstone?   
-Let's start by using ``||agent:agent move left/right||`` to get your agent to a corner to start.
+1つ1つの ブロックに めいれいを かく こともできるけど、エメラルドブロックを ぜんぶ さがして レッドストーンを おく プログラムを つくったほうが いいよね。
+まず ``||agent:agent move left/right||`` で エージェントを すみに うごかそう。
 
 ```blocks
 agent.move(LEFT, 1)
@@ -36,10 +31,10 @@ agent.move(LEFT, 1)
 
 ## Step 4
 
-Next, lets check if the block below us equals emerald.  
-Start by adding a ``||logic:if then||``, with a ``||logic:0 = 0||`` block within it.   
-In the first slot of this, use an ``||agent: agent inspect block down||`` to detect which block is below.   
-Then on the right hand side, compare it against an Emerald Block.
+つぎに、したの ブロックが エメラルドかどうか チェックしよう。
+``||logic:if then||`` を おいて、そのなかに ``||logic:0 = 0||`` ブロックを いれよう。
+ひだりがわに ``||agent: agent inspect block down||`` を つかって したの ブロックを しらべよう。
+みぎがわで エメラルドブロックと くらべよう。
 
 ```blocks
     agent.move(LEFT, 1)
@@ -48,10 +43,10 @@ Then on the right hand side, compare it against an Emerald Block.
     }
 ```
 
-## Step 5
+## Step 5
 
-Within this if statement, if it does correctly detect emerald, then lets place some redstone down using ``||agent:agent place down||``.   
-We also want to move forward after our if statement is complete by 1, using ``||agent:agent move forward by 1||``.
+if の なかで、エメラルドが みつかったら ``||agent:agent place down||`` で レッドストーンを おこう。
+if の あとに ``||agent:agent move forward by 1||`` で 1つ まえに すすもう。
 
 ```blocks
     agent.move(LEFT, 1)
@@ -63,9 +58,8 @@ We also want to move forward after our if statement is complete by 1, using ``||
 
 ## Step 6
 
-You now have all the basic building blocks you need to complete this task. To reduce the amount of code you need to write to
-complete this task, make sure to give ``||loops:repeat X times||`` a go as well, as this will make things a lot easier.   
-Good luck!
+これで きほんの パーツは そろったよ。コードの りょうを へらすために ``||loops:repeat X times||`` も つかってみてね。そうすると ずっと かんたんに なるよ。
+がんばって！
 
 
 ```ghost
@@ -85,5 +79,5 @@ Good luck!
 
 
 ```package
-seymour=github:CausewayDigital/Minecraft-EE-MakeCode
+seymour=github:kt199671/Minecraft-EE-MakeCode
 ```
